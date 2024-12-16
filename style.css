@@ -1,0 +1,145 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f0f2;
+    color: #0a0505;
+  }
+
+  /* Navigation Menu */
+  .nav__logo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .nav__links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+    background-color: #0a0909;
+  }
+  
+  .nav__links .link {
+    margin-right: 30px;
+  }
+  
+  .nav__links .link a {
+    text-decoration: none;
+    color: rgb(137, 97, 97);
+    font-size: 18px;
+  }
+  
+  .nav__links .link a:hover {
+    color: #030303;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 50px;
+    margin: 50px 0;
+    border: 1px solid #3d1717;
+    background-color: rgb(155, 51, 51);
+  }
+  
+  section h2 {
+    color: #333;
+  }
+  
+  button.section-btn {
+    background-color: #070707;
+    color: rgb(6, 6, 6);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  button.section-btn:hover {
+    background-color: #040404;
+  }
+
+  
+  .profile-container {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 1.5em;
+    background: #f5b0b0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header {
+    text-align: center;
+    border-bottom: 2px solid #0a1014;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #828b92;
+    margin-bottom: 1em;
+  }
+  
+  .profile-header h1 {
+    margin: 0.5em 0;
+    font-size: 2.5em;
+    color: #3a4248;
+  }
+  
+  .profile-header p {
+    color: #090808;
+  }
+  
+  h2 {
+    color: #8fc3e6;
+    border-bottom: 2px solid #01080d;
+    display: inline-block;
+    margin-bottom: 0.5em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #8e9ca7;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  ul li i {
+    color: #4b0b9;
+    font-size: 1.2em;
+  }
+  
+  .education-item {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    background: #a4b0b9;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  a {
+    color: #455c6b;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
